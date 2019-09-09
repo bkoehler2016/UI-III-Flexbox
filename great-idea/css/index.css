@@ -318,6 +318,9 @@ h5 {
 }
 
 /* Your code starts here! */
+body {
+	text-align: center;
+}
 
 h1 {
 	font-size: 100px;
@@ -434,4 +437,17 @@ a:active {
 
 a:visited {
 	background-color: lightskyblue;
+}
+
+.top_Services {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.services-header-img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
