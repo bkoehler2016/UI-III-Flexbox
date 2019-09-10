@@ -416,7 +416,7 @@ footer {
 .navContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 a {
@@ -442,7 +442,7 @@ a:visited {
 .top_Services {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -455,13 +455,14 @@ a:visited {
 .bottom_Services {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-content: flex-start;
 }
 
 .bottom_Services .bottom_Services_item {
     width: 400px;
-    margin: 2%;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid black;
     background: lightgray;
 }
