@@ -317,7 +317,8 @@ h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Styling for home page */
+
 body {
     text-align: center;
 }
@@ -410,6 +411,9 @@ a:visited {
     text-align: left;
     padding: 10px;
 }
+
+
+/* Styling for services page beings here */
 
 .top_Services {
     display: flex;
