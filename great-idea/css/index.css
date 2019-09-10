@@ -439,11 +439,24 @@ a:visited {
     background-color: lightskyblue;
 }
 
+.top_Services {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.services-header-img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
 .bottom_Services {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .bottom_Services .bottom_Services_item {
@@ -451,4 +464,13 @@ a:visited {
     margin: 2%;
     border: 1px solid black;
     background: lightgray;
+}
+
+.learnMoreItem {
+    width: 100px;
+    padding: 1px;
+    margin: 7px;
+    border: 1px solid black;
+    background: white;
+    color: black;
 }
