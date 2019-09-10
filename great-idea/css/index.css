@@ -328,100 +328,22 @@ h1 {
 
 
 
-.logo {
-    display: inline;
-    margin: 0px 30px 0px 5%;
-}
-
-a {
-    text-decoration: none;
-}
-
-h2 {
-    text-align: left;
-}
-
-p {
-    text-align: left;
-}
-
-.content_2 {
-    /* border: 2px solid red; */
-    margin: 1%;
-    width: 100%;
-}
-
-.content_2_box {
-    /* border: 2px solid blue; */
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    margin: 1%;
-    width: 23%;
-}
-
-.getStartedBox {
-    border: 2px solid black;
-    margin: 1%;
-    height: 45px;
-    width: 23%;
-    text-align: center;
-
-}
-
-.content_1_box {
-    /* border: 2px solid blue; */
-    display: inline-block;
-    padding: 10px;
-    margin: 1%;
-    width: 31%;
-}
-
-.middle-img {
-    /* border: 2px solid black; */
-    display: inline-block;
-    padding: 1%;
-    margin: 1%;
-    width: 50%;
-}
-
-.bottom_2_box {
-    /* border: 2px solid blue; */
-    display: inline-block;
-    padding: 1%;
-    margin: 10px;
-    width: 23%;
-}
-
-.contact {
-    display: block;
-    padding: 1%;
-    margin: 10px;
-    width: 23%;
-}
-
-footer {
-    text-align: center;
-}
-
 .navContainer .navItem {
     margin: auto;
     padding: 20px;
 }
 
-.logo {
-    padding: 20px;
-}
+
 
 .navContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 a {
-    background-color: red;
-    color: white;
+
+    color: black;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
@@ -439,12 +361,64 @@ a:visited {
     background-color: lightskyblue;
 }
 
+.content_2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.top-Section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.top-Section .top_Section_item {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.getStartedBox {
+    display: inline-block;
+    width: 100px;
+    padding: 1px;
+    margin: 7px;
+    border: 1px solid black;
+    background: white;
+    color: black;
+
+}
+
+.bottom-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bottom-section .bottom_Section_item {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.contact {
+    text-align: left;
+    padding: 10px;
+}
+
 .top_Services {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: flex-start;
 }
+
+
 
 .services-header-img {
     margin-left: auto;
@@ -474,4 +448,8 @@ a:visited {
     border: 1px solid black;
     background: white;
     color: black;
+}
+
+footer {
+    text-align: center;
 }
