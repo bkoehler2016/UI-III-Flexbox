@@ -414,6 +414,9 @@ a:visited {
 
 
 /* Styling for services page beings here */
+.servicesParagraph {
+    text-align: left;
+}
 
 .top_Services {
     display: flex;
@@ -431,15 +434,18 @@ a:visited {
 }
 
 .bottom_Services {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+
+
 }
+
+
 
 .bottom_Services .bottom_Services_item {
     width: 400px;
-    margin: 10px;
+    margin: auto;
     padding: 10px;
     border: 1px solid black;
     background: lightgray;
@@ -455,18 +461,23 @@ a:visited {
 }
 
 .contact_Services {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
 }
 
 .contact_Services .contact_Services_Item {
     width: 400px;
-    margin: 10px;
+    margin: auto;
     padding: 10px;
 
 
+}
+
+.services-info-img {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .circle {
