@@ -342,7 +342,7 @@ h1 {
     justify-content: space-around;
 }
 
-a {
+.navItem {
 
     color: black;
     padding: 1em 1.5em;
@@ -350,16 +350,20 @@ a {
     text-transform: uppercase;
 }
 
-a:hover {
+.navItem:hover {
     background-color: lightgray;
 }
 
-a:active {
+.navItem:active {
     background-color: black;
 }
 
-a:visited {
+.navItem:visited {
     background-color: lightskyblue;
+}
+
+a {
+    text-decoration: none;
 }
 
 .content_2 {
@@ -435,8 +439,9 @@ a:visited {
 
 .bottom_Services {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 1rem;
 
 
 }
@@ -462,8 +467,9 @@ a:visited {
 
 .contact_Services {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 1rem;
 }
 
 .contact_Services .contact_Services_Item {
