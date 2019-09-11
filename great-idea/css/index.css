@@ -350,6 +350,15 @@ h1 {
     text-transform: uppercase;
 }
 
+/* made a media query for mobile to style nav in vertiacal */
+
+@media screen and (max-width: 600px) {
+    .navItem a {
+        float: none;
+        width: 100%;
+    }
+}
+
 .navItem:hover {
     background-color: lightgray;
 }
