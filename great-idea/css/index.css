@@ -449,12 +449,12 @@ a {
 .bottom_Services {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(auto-fit, auto);
-    grid-gap: 2em;
+    grid-auto-flow: row;
+    /* grid-template-rows: repeat(auto-fit, auto); */
+    grid-gap: 1em;
     justify-items: auto;
     align-items: auto;
-    padding: 0;
-    margin: 0;
+
 
 
 }
@@ -481,6 +481,7 @@ a {
 .contact_Services {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    grid-auto-flow: column;
     grid-template-rows: repeat(auto-fit, auto);
     grid-gap: 2em;
     justify-items: auto;
