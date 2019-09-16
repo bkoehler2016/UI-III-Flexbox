@@ -3,87 +3,7 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -94,17 +14,7 @@ video {
 
 /* HTML5 display-role reset for older browsers */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -112,20 +22,15 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
@@ -141,109 +46,25 @@ table {
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -254,17 +75,7 @@ video {
 
 /* HTML5 display-role reset for older browsers */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -272,20 +83,15 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
@@ -301,17 +107,12 @@ table {
     box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -320,30 +121,30 @@ h5 {
 /* Styling for home page */
 
 body {
-    text-align: center;
+    max-width: 880px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 100px;
 }
 
-
-
 .navContainer .navItem {
     margin: auto;
     padding: 20px;
 }
 
-
-
 .navContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navItem {
-
     color: black;
     padding: 1em 1.5em;
     text-decoration: none;
@@ -377,7 +178,7 @@ a {
 
 .content_2 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
 }
 
@@ -392,7 +193,6 @@ a {
     width: 400px;
     margin: 10px;
     padding: 10px;
-
 }
 
 .getStartedBox {
@@ -403,12 +203,11 @@ a {
     border: 1px solid black;
     background: white;
     color: black;
-
 }
 
 .bottom-section {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: flex-start;
 }
@@ -417,7 +216,6 @@ a {
     width: 400px;
     margin: 10px;
     padding: 10px;
-
 }
 
 .contact {
@@ -425,8 +223,8 @@ a {
     padding: 10px;
 }
 
-
 /* Styling for services page beings here */
+
 .servicesParagraph {
     text-align: left;
 }
@@ -437,8 +235,6 @@ a {
     justify-content: space-around;
     align-items: flex-start;
 }
-
-
 
 .services-header-img {
     margin-left: auto;
@@ -453,13 +249,7 @@ a {
     grid-template-rows: repeat(auto-fit, auto);
     grid-gap: 1em;
     justify-content: space-evenly;
-
-
-
-
 }
-
-
 
 .bottom_Services .bottom_Services_item {
     width: 400px;
@@ -491,8 +281,6 @@ a {
     width: 400px;
     margin: auto;
     padding: 10px;
-
-
 }
 
 .services-info-img {
@@ -531,10 +319,6 @@ a {
     flex-wrap: wrap;
 }
 
-
-
-
-
 .product-image img {
     max-width: 50%;
 }
@@ -561,8 +345,7 @@ a {
     }
 }
 
-.products .product-card:first-child,
-.products .product-card:nth-child(2) {
+.products .product-card:first-child, .products .product-card:nth-child(2) {
     flex: 2 46%;
 }
 
